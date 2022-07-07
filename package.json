@@ -1,5 +1,5 @@
 {
-  "name": "types-testing-library-vitest-dom",
+  "name": "@types/testing-library__jest-dom",
   "version": "5.14.5",
   "description": "TypeScript definitions for @testing-library/jest-dom (with vitest)",
   "homepage": "https://github.com/zoontek/types-testing-library-vitest-dom",
