@@ -16,6 +16,15 @@
 }
 ```
 
+## Test setup file
+
+```ts
+import matchers from "@testing-library/jest-dom/matchers";
+import { expect } from "vitest";
+
+expect.extend(matchers);
+```
+
 # Summary
 
 This package contains type definitions for [@testing-library/jest-dom](https://github.com/testing-library/jest-dom) (with vitest).
