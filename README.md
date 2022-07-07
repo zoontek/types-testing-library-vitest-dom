@@ -1,14 +1,24 @@
-# Installation
+# types-testing-library-vitest-dom
 
-> `npm install --save @types/testing-library__jest-dom`
+## Installation (yarn)
+
+```json
+"resolutions": {
+  "@types/testing-library__jest-dom": "github:zoontek/types-testing-library-vitest-dom"
+}
+```
+
+## Installation (npm)
+
+```json
+"overrides": {
+  "@types/testing-library__jest-dom": "github:zoontek/types-testing-library-vitest-dom"
+}
+```
 
 # Summary
 
-This package contains type definitions for @testing-library/jest-dom (https://github.com/testing-library/jest-dom).
-
-# Details
-
-Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/testing-library__jest-dom.
+This package contains type definitions for [@testing-library/jest-dom](https://github.com/testing-library/jest-dom) (with vitest).
 
 # Credits
 
