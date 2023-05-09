@@ -9,8 +9,6 @@
 
 import { TestingLibraryMatchers } from "./matchers";
 
-declare global {
-  namespace Vi {
-    interface JestAssertion extends TestingLibraryMatchers<any, void> {}
-  }
+declare module "vitest" {
+  interface JestAssertion extends TestingLibraryMatchers<any, void> {}
 }
